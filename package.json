@@ -1,0 +1,39 @@
+{
+  "name": "hackernewsviewer",
+  "version": "1.0.0",
+  "description": "Viewer for Hacker News Posts",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "build": "webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LorenGr/hackerNewsViewer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LorenGr/hackerNewsViewer/issues"
+  },
+  "homepage": "https://github.com/LorenGr/hackerNewsViewer#readme",
+  "dependencies": {
+    "axios": "^0.16.2",
+    "express": "^4.15.4",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "webpack": "^3.5.5"
+  },
+  "devDependencies": {
+    "babel-core": "^6.23.1",
+    "babel-loader": "^6.4.0",
+    "babel-plugin-lodash": "^3.2.11",
+    "babel-plugin-transform-class-properties": "^6.23.0",
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-3": "^6.22.0",
+    "babel-register": "^6.24.1",
+    "babel-runtime": "^6.23.0"
+  }
+}
